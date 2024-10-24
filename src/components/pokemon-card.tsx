@@ -19,4 +19,4 @@ export default function PokemonCard({ name }: PokemonCardProps) {
       {name}
     </Link>
   );
-}
+} 
