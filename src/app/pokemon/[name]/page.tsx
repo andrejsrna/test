@@ -5,7 +5,9 @@ import React from "react";
 import { MoveLeft } from "lucide-react";
 
 interface PokemonPageProps {
-// 3. Add page props types
+  params: {
+    name: string;
+  };
 }
 
 export async function generateStaticParams() {

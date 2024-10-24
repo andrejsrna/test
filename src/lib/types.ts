@@ -14,3 +14,11 @@ export interface SinglePokemonData {
     order: number
     weight: number
 }
+
+export interface PokemonPageParams {
+    name: string;
+  }
+
+export interface PokemonPageProps {
+    params: PokemonPageParams;
+  }
